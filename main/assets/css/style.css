@@ -1,0 +1,30 @@
+.lesson {
+    background-color: lemonchiffon;
+  }
+  
+  .title {
+    color: darkblue;
+  }
+  
+  #email {
+    background-color: goldenrod;
+  }
+  
+  #github {
+    background-color: lightsteelblue;
+  }
+  
+  #portfolio {
+    background-color: darkorange;
+  }
+
+  .profile {
+    width: 200px;
+    height: 200px;
+    /* Margin property */
+    margin: 0px;
+    /* Padding property */
+    padding: 0px;
+    /* Border property */
+    border: none
+  }

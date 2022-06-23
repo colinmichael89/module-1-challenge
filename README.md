@@ -1,1 +1,2 @@
-# week-1-portfolio
+# README file must contain:
+## description, screenshot, and link to deployed application (minimum)

@@ -35,7 +35,6 @@ body {
 
 .header div ul {
   display: flex;
-  flex-direction: column;
   justify-content: right;
   list-style-type: none;
   display: inline-block;
@@ -58,8 +57,7 @@ a {
 }
 
 p {
-  display: flex;
-  align-items: flex-start;
+  align-content: stretch;
   font-size: 16px;
   min-width: 300px;
 }
@@ -80,14 +78,13 @@ p {
 
 .float-right {
   display: flex;
-  flex-direction: row;
+  flex-direction: stretch;
   float: right;
   margin-left: 25px;
 }
 
 .content {
   display: flex;
-  justify-content: stretch;
   width: 75%;
   display: inline-block;
   margin-left: 20px;
@@ -137,18 +134,21 @@ p {
 }
 
 .benefit-lead img {
+  flex-shrink: 1 0 0;
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
 .benefit-brand img {
+  flex-shrink: 1 0 0;
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
 .benefit-cost img {
+  flex-shrink: 1 0 0;
   display: block;
   margin: 10px auto;
   max-width: 150px;
@@ -164,7 +164,6 @@ p {
 }
 
 .online-reputation-management {
-  display: flex;
   flex-direction: row-reverse;
   margin-bottom: 20px;
   padding: 50px;
@@ -175,9 +174,8 @@ p {
 }
 
 .social-media-marketing {
-  display: flex;
   margin-bottom: 20px;
-  padding: 50px 50px;
+  padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #0072bb;
@@ -203,20 +201,17 @@ p {
 }
 
 .search-engine-optimization h2 {
-  align-items: flex-start;
+
   margin-bottom: 20px;
   font-size: 36px;
 }
 
 .online-reputation-management h2 {
-  align-items: flex-end;
-  justify-content: end;
   margin-bottom: 20px;
   font-size: 36px;
 }
 
 .social-media-marketing h2 {
-  align-items: flex-start;
   margin-bottom: 20px;
   font-size: 36px;
 }

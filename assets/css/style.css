@@ -58,8 +58,10 @@ a {
 }
 
 p {
+  display: flex;
+  align-items: flex-start;
   font-size: 16px;
-  min-width: 30px;
+  min-width: 300px;
 }
 
 .hero {
@@ -77,6 +79,8 @@ p {
 }
 
 .float-right {
+  display: flex;
+  flex-direction: row;
   float: right;
   margin-left: 25px;
 }
@@ -90,6 +94,8 @@ p {
 }
 
 .benefits {
+  display: flex;
+  flex-direction: column;
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -149,7 +155,6 @@ p {
 }
 
 .search-engine-optimization {
-  display: flex;
   margin-bottom: 20px;
   padding: 50px 50px;
   height: 300px;
@@ -160,6 +165,7 @@ p {
 
 .online-reputation-management {
   display: flex;
+  flex-direction: row-reverse;
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -171,7 +177,7 @@ p {
 .social-media-marketing {
   display: flex;
   margin-bottom: 20px;
-  padding: 50px;
+  padding: 50px 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #0072bb;
@@ -179,28 +185,38 @@ p {
 }
 
 .search-engine-optimization img {
+  display: flex;
+  flex-shrink: 1 0 0;
   max-height: 200px;
 }
 
 .online-reputation-management img {
+  display: flex;
+  flex-shrink: 1 0 0;
   max-height: 200px;
 }
 
 .social-media-marketing img {
+  display: flex;
+  flex-shrink: 1 0 0;
   max-height: 200px;
 }
 
 .search-engine-optimization h2 {
+  align-items: flex-start;
   margin-bottom: 20px;
   font-size: 36px;
 }
 
 .online-reputation-management h2 {
+  align-items: flex-end;
+  justify-content: end;
   margin-bottom: 20px;
   font-size: 36px;
 }
 
 .social-media-marketing h2 {
+  align-items: flex-start;
   margin-bottom: 20px;
   font-size: 36px;
 }

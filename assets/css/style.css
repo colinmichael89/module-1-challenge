@@ -9,6 +9,7 @@ body {
 }
 
 .header {
+  display: flex;
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #2a607c;
@@ -21,7 +22,7 @@ body {
 }
 
 .header h1 .seo {
-  color: #d9dcd6;
+ color: #d9dcd6;
 }
 
 .header div {
@@ -33,23 +34,32 @@ body {
 }
 
 .header div ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
   list-style-type: none;
   display: inline-block;
   margin-left: 25px;
 }
 
 .header div ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
   display: inline-block;
   margin-left: 25px;
 }
 
 a {
+  display: flex;
+  justify-content: right;
   color: #ffffff;
   text-decoration: none;
 }
 
 p {
   font-size: 16px;
+  min-width: 30px;
 }
 
 .hero {
@@ -72,6 +82,8 @@ p {
 }
 
 .content {
+  display: flex;
+  justify-content: stretch;
   width: 75%;
   display: inline-block;
   margin-left: 20px;
@@ -137,8 +149,9 @@ p {
 }
 
 .search-engine-optimization {
+  display: flex;
   margin-bottom: 20px;
-  padding: 50px;
+  padding: 50px 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #0072bb;
@@ -146,6 +159,7 @@ p {
 }
 
 .online-reputation-management {
+  display: flex;
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -155,6 +169,7 @@ p {
 }
 
 .social-media-marketing {
+  display: flex;
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;

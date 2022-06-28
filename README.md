@@ -1,24 +1,15 @@
-# README file must contain:
-description, screenshot, and link to deployed application
+## Module 1 Challenge
 
-## Title
-
-
+Reworking Existing code to add semantic Html Elements, give the landing page a concise descriptive title, add alternative attributes to image elements,
 
 ## Link to Deployed Application
 
-[Click to view webpage](https://colinmichael89.github.io/module-1-challenge/) 
+[Click to view webpage](https://colinmichael89.github.io/module-1-challenge/)
 
+## Screenshot of Application
 
-## Screenshot of application
+![Banner](./assets/images/scrn1.png)
 
+![Banner](./assets/images/scrn2.png)
 
-
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+![Banner](./assets/images/scrn3.png)

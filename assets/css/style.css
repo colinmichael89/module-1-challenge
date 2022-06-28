@@ -8,58 +8,48 @@ body {
   background-color: #d9dcd6;
 }
 
-.header {
-  display: flex;
+header {
   padding: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
 }
 
-.header h1 {
+header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-.header h1 .seo {
- color: #d9dcd6;
+header h1 .seo {
+  color: #d9dcd6;
 }
 
-.header div {
+.list {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
 
-.header div ul {
-  display: flex;
-  justify-content: right;
+.list ul {
   list-style-type: none;
-  display: inline-block;
-  margin-left: 25px;
 }
 
-.header div ul li {
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
+.list ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
 a {
-  display: flex;
-  justify-content: right;
   color: #ffffff;
   text-decoration: none;
 }
 
 p {
-  align-content: stretch;
   font-size: 16px;
-  min-width: 300px;
+  min-width: 30px;
 }
 
 .hero {
@@ -90,7 +80,7 @@ p {
   margin-left: 20px;
 }
 
-.benefits {
+aside {
   display: flex;
   flex-direction: column;
   margin-right: 20px;
@@ -99,7 +89,7 @@ p {
   float: right;
   width: 20%;
   height: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
 
@@ -158,7 +148,7 @@ p {
   margin-bottom: 20px;
   padding: 50px 50px;
   height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
 }
@@ -166,18 +156,18 @@ p {
 .online-reputation-management {
   flex-direction: row-reverse;
   margin-bottom: 20px;
-  padding: 50px;
+  padding: 50px 50px;
   height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
 }
 
 .social-media-marketing {
   margin-bottom: 20px;
-  padding: 50px;
+  padding: 50px 50px;
   height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
 }
@@ -201,7 +191,6 @@ p {
 }
 
 .search-engine-optimization h2 {
-
   margin-bottom: 20px;
   font-size: 36px;
 }
@@ -216,13 +205,14 @@ p {
   font-size: 36px;
 }
 
-.footer {
+footer {
   padding: 30px;
   clear: both;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
 
-.footer h2 {
+footer h2 {
   font-size: 20px;
 }
